@@ -57,20 +57,21 @@ body {
   background-color: #cbe6e9;
 }
 .bg-color-2 {
-  background-color: rgb(228, 205, 163);
+  background-color: #e4cda3;
 }
 .bg-color-3 {
-  background-color: rgb(233, 154, 140);
+  background-color: #e99a8c;
 }
 .all-mission-card {
   display: flex;
   justify-content: space-around;
 }
-.form-headin {
+.form-heading {
   text-align: center;
 }
 form {
   text-align: center;
+  margin-bottom: 100px;
 }
 .input-field {
   width: 400px;
@@ -81,14 +82,15 @@ form {
   border-radius: 15px;
   outline: none;
 }
-.contact-part {
-  margin-bottom: 100px;
+.textarea-field {
+  height: 150px;
+  padding-top: 20px;
 }
 .develop-part {
   background-image: url(images/shapes/shape-5.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 150px;
+  background-size: 200px;
 }
 .project-part {
   background-image: url(images/shapes/shape-1.png);
