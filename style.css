@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 8%;
+  padding-right: 50px;
+  padding-right: 8%;
+}
+.half-width img {
+  width: 60%;
+}
+.tomato-color {
+  color: tomato;
+}
+.stay-mission {
+  font-size: 60px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+#stay-mission-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, orange);
+  border-image-slice: 1;
+}
+.button-link {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+}
+.second-heading {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 48px;
+}
+.card-section {
+  width: 300px;
+  border: 1px solid gray;
+  box-shadow: 4px 4px 12px gray;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.div-img img {
+  width: 40%;
+}
+.bg-color-1 {
+  background-color: #cbe6e9;
+}
+.bg-color-2 {
+  background-color: rgb(228, 205, 163);
+}
+.bg-color-3 {
+  background-color: rgb(233, 154, 140);
+}
+.all-mission-card {
+  display: flex;
+  justify-content: space-around;
+}
+.form-headin {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid tomato;
+  border-radius: 15px;
+  outline: none;
+}
+.contact-part {
+  margin-bottom: 100px;
+}
+.develop-part {
+  background-image: url(images/shapes/shape-5.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 150px;
+}
+.project-part {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50px;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px 0px;
+}
